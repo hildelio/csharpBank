@@ -124,8 +124,19 @@ public class TrybankLib
     // 7. Construa a funcionalidade de transferir dinheiro entre contas
     public void Transfer(int destinationNumber, int destinationAgency, int value)
     {
-        throw new NotImplementedException();
-    }
+        Withdraw(value);
 
-   
+        int userToTransfer = -99;
+
+        for (int i = 0; i < registeredAccounts; i++)
+        {
+            if (Bank[i, 0] ==  destinationNumber && Bank[i, 1] == destinationAgency)
+            {
+                userToTransfer = i;
+            }
+        }
+
+        Bank[userToTransfer, 3] += value;
+    }
+ 
 }
