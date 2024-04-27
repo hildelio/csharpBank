@@ -1,6 +1,6 @@
-# Controle Bancário - Aplicação em Java
+# Controle Bancário - Aplicação em C#
 
-Este projeto consiste em uma aplicação de controle bancário desenvolvida em Java. Com esta aplicação, você poderá realizar operações básicas em contas bancárias, como verificar saldo, depositar, sacar e transferir dinheiro. Além disso, oferece funcionalidades para cadastro de novas contas, login e logout do sistema.
+Este projeto consiste em uma aplicação de controle bancário desenvolvida em C#. Com esta aplicação, você poderá realizar operações básicas em contas bancárias, como verificar saldo, depositar, sacar e transferir dinheiro. Além disso, oferece funcionalidades para cadastro de novas contas, login e logout do sistema.
 
 ## Funcionalidades Principais
 
@@ -28,7 +28,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 1. Clone este repositório para sua máquina local usando o seguinte comando:
    ```bash
    git clone https://github.com/hildelio/csharpBank.git
-Abra o projeto em sua IDE Java preferida.
+Abra o projeto em sua IDE C# preferida.
 Compile e execute o código.
 Certifique-se de ter o ambiente Java configurado corretamente em sua máquina antes de executar o projeto.
 
